@@ -7,3 +7,6 @@ Highlights:
 ->Instant Results: Round winners are displayed immediately, and scores update on the spot.
 
 ->End & Reset Options: Easily end the game to see the final winner or reset everything for a fresh start.
+
+Try out the game here:
+https://richa866.github.io/RockPaperScissor/
