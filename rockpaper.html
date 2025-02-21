@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+<link rel="stylesheet" href="rockpaper.css">
+</head>
+<body>
+    <header>
+        <div class="reset">
+            <button class="reset_btn">RESET GAME</button></div>
+    <div class="user_score">
+        <p> USER-<p id="u_score"></p></p> 
+    </div>
+    <div class="endgame">
+        <button class="endgame_btn">END GAME </button>              
+   </div>
+</header>
+
+<div class="play_area">
+
+<div class="gamecontainer">
+    <div class="user_play">
+       
+        <div class="choice" id="rock">
+           <button class="choice_btn "> <img src="rock.jpg" alt="rock" ></button>
+        </div>
+
+        <div class="choice "id="scissors">
+           <button class="choice_btn"> <img src="scissors.jpg" alt="scisscors"></button>
+        </div>
+
+        <div class="choice " id="paper">
+          <button class="choice_btn"> <img src="paper.jpg" alt="paper" ></button> </div>
+        </div>
+
+    </div>
+
+
+    <div class="display">
+        <p id="display_winner"></p>
+    </div>
+
+   <div class="comp_play">
+
+    <div class="choice_comp" id="c_rock">
+       <button class="choice_btn"> <img src="rock.jpg" alt=""></button> 
+    </div>
+
+    <div class="choice_comp " id="c_scissors">
+       <button class="choice_btn"> <img src="scissors.jpg" alt=""></button>
+     </div>
+
+    <div class="choice_comp " id="c_paper">
+      <button class="choice_btn"> <img src="paper.jpg" alt=""></button> 
+    </div>
+      
+</div>
+</div>
+
+    <div class="comp_score">
+        <p >COMPUTER-<p id="c_score"></p>
+        </p>
+    </div>
+</div>
+
+    <script src="rockpaper.js"></script>
+</body>
+</html>
+ 
+
+
